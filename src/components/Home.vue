@@ -17,6 +17,15 @@ z<template>
         </ul>
       </div>
     </nav>
+    <div class="row quote my-2">
+      <div class="col-10 offset-1 d-flex justify-content-center align-items-center">
+        <img class="rounded-circle" src="https://www.lionsroar.com/wp-content/uploads/2017/02/5-DP297456r4_61A-1-1-600x343.jpg">
+        <div class="content w-100">
+          <p class="ml-2">The mind is everything. What you think you become</p>
+        </div>
+        <h6 class="text-right align-self-end">Buddha</h6>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -32,6 +41,14 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-
+<style lang="scss" scoped>
+.home {
+  .quote {
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+    }
+  }
+}
 </style>
