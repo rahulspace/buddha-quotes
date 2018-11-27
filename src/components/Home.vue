@@ -21,7 +21,7 @@ z<template>
       <div class="col-10 offset-1 d-flex justify-content-center align-items-center">
         <img class="rounded-circle" src="https://www.lionsroar.com/wp-content/uploads/2017/02/5-DP297456r4_61A-1-1-600x343.jpg">
         <div class="content w-100">
-          <p class="ml-2">The mind is everything. What you think you become</p>
+          <h4 class="ml-2">The mind is everything. What you think you become</h4>
         </div>
         <h6 class="text-right align-self-end">Buddha</h6>
       </div>
@@ -48,6 +48,14 @@ export default {
       width: 80px;
       height: 80px;
       object-fit: cover;
+    }
+
+    h4 {
+      font-size: 25px;
+    }
+
+    p {
+      font-weight: 700;
     }
   }
 }
