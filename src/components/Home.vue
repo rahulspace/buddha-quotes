@@ -26,6 +26,15 @@ z<template>
         <h6 class="text-right align-self-end">Buddha</h6>
       </div>
     </div>
+    <div class="row quote my-2">
+      <div class="col-10 offset-1 d-flex justify-content-center align-items-center">
+        <img class="rounded-circle" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/incense-buddha-daniel-hagerman.jpg">
+        <div class="content w-100">
+          <h4 class="ml-2">In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.</h4>
+        </div>
+        <h6 class="text-right align-self-end">Buddha</h6>
+      </div>
+    </div>
   </div>
 </template>
 
