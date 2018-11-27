@@ -53,6 +53,21 @@ export default {
 <style lang="scss" scoped>
 .home {
   .quote {
+    padding-bottom: 10px;
+    background:
+      linear-gradient(
+        to left, 
+        #ffffff 0%,
+        #ffffff 10%,
+        #000 50%,
+        #ffffff 90%,
+        #ffffff 100%
+      )
+      left 
+      bottom
+      no-repeat; 
+    background-size:100% 1px;
+
     img {
       width: 80px;
       height: 80px;
